@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	<input type="text" name="tb1" id="tb1" value="" />+<input type="text" name="tb2" id="tb2" value="" /> =<input type="text" name="tb3" id="tb3" value="" />
+	<input type="button" id="btnjisuan" value="计算" onclick="add();" />
+	
+	<a href="javascript:void(0);"  onclick="bb();">腾讯</a>
+	
+	
+	<script type="text/javascript">
+		
+		function add()
+		{
+			
+			var v1=document.getElementById("tb1").value;
+			var v2=document.getElementById("tb2").value;
+			var v3=parseInt(v1) + parseInt(v2);
+			document.getElementById("tb3").value=v3;
+		}
+		
+		function bb()
+		{
+			location.href="http://www.qq.com"; //通过js代码实现页面的跳转 
+			
+		}
+	</script>
+	</body>
+</html>
