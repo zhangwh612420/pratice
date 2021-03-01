@@ -1,0 +1,43 @@
+body {
+    font: 20px/48px 'Microsoft YAHEI'
+}
+a {
+    display: inline-block;
+    height: 58px;
+    width: 120px;
+    text-decoration: none;
+    background-color: blue;
+    text-align: center;
+}
+.one {
+    background-image: url(images/bg1.png);
+    background-position: top center;
+}
+.two {
+    background-image: url(images/bg2.png);
+    background-position: top center;
+}
+.three {
+    background-image: url(images/bg3.png);
+    background-position: top center;
+}
+.four {
+    background-image: url(images/bg4.png);
+    background-position: top center;
+}
+.one:hover{
+    background-image: url(images/bg3.jpg);
+    background-position: top center;
+}
+.two:hover {
+    background-image: url(images/bg5.png);
+    background-position: top center;
+}
+.three:hover {
+    background-image: url(images/bg11.png);
+    background-position: top center;
+}
+.four:hover {
+    background-image: url(images/bg22.png);
+    background-position: top center;
+}
